@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yami Culture AI Wallpaper — Erin Lin</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top"><img src="./assets/yami-logo.png" alt="Yami"><span>Yami Culture AI Wallpaper</span></a>
+    <div class="topbar-meta"><span>Six culture stories</span><i></i><span>2026</span></div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+      <p class="eyebrow">A visual culture archive</p>
+      <h1>Yami Culture<br><span>AI Wallpaper</span></h1>
+      <p class="hero-copy">Six Yami values translated into cinematic worlds with Dami and Xiaomi—built through human direction, character consistency, and iterative collaboration with AI.</p>
+      <p class="hero-copy zh">六条亚米文化，被转译为大米与小米共同经历的六个电影化世界。作品以人的创意与判断为主导，在持续迭代中与 AI 协作完成。</p>
+      <div class="credits">
+        <article class="credit"><img class="avatar" src="./assets/erin-lin.png" alt="Erin Lin"><div><small>Created & directed by</small><strong>Erin Lin</strong><span>Concept · Art Direction · Iteration</span></div></article>
+        <article class="credit"><b class="tool-icon"><img src="./assets/chatgpt-icon.svg" alt=""></b><div><small>AI tool</small><strong>ChatGPT</strong><span>Ideation · Prompting · Production archive</span></div></article>
+      </div>
+    </section>
+
+    <section class="process shell">
+      <div class="section-heading"><div><p class="eyebrow">From idea to image</p><h2>Design Process</h2><p class="zh-heading">设计流程</p></div><p>A repeatable workflow that keeps the cultural idea, mascot identity, and final visual language aligned.</p></div>
+      <div class="process-grid">
+        <ol class="steps">
+          <li><span>01</span><div><h3>Culture-to-scene ideation</h3><p>Discuss visual metaphors with GPT and Doubao, then select a scene that expresses the value without becoming literal.</p><p class="zh">与 GPT、豆包讨论符合亚米文化的场景，在多个隐喻中筛选最清晰、有故事感的方向。</p></div></li>
+          <li><span>02</span><div><h3>Mascot identity system</h3><p>Define Dami and Xiaomi across front, side, and back views, preserving silhouette, proportions, fur, and costume language.</p><p class="zh">建立大米、小米的正面、侧面与背面形象，统一轮廓、比例、绒毛和服装特征。</p></div></li>
+          <li><span>03</span><div><h3>Prompt direction</h3><p>GPT turns the chosen scene into production prompts covering composition, action, lighting, typography, and constraints.</p><p class="zh">由 GPT 将创意转化为包含构图、动作、光线、字体与限制条件的制作提示词。</p></div></li>
+          <li><span>04</span><div><h3>Wallpaper production</h3><p>Generate, compare, and refine the wallpaper through focused visual corrections rather than broad restarts.</p><p class="zh">生成并比较画面，通过聚焦式修正不断完善壁纸，而不是反复推倒重来。</p></div></li>
+          <li><span>05</span><div><h3>Archive & storytelling</h3><p>GPT consolidates the prompts, artwork story, and final production evidence into this living archive.</p><p class="zh">由 GPT 汇总提示词、作品故事与最终生成记录，形成完整的过程档案。</p></div></li>
+        </ol>
+        <figure class="turnaround"><div><img src="./assets/mascot-long-fur.png" alt="Long-fur Dami and Xiaomi character turnaround"></div><figcaption><small>Character study</small><strong>Dami & Xiaomi · Long-fur edition</strong><p>Front, side, and back views anchor character consistency across six very different worlds.</p><p class="zh">长绒版三视图为六个不同场景提供稳定、准确的角色基准。</p></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="archive shell">
+      <div class="section-heading"><div><p class="eyebrow">The collection</p><h2>Six Culture Stories</h2><p class="zh-heading">六个文化故事</p></div><p>Choose a value to reveal its artwork, story, prompt evolution, and final generation record.</p></div>
+      <nav class="tabs" aria-label="Culture wallpapers">
+        <button class="tab active" data-index="0"><span>01</span>Customer’s Eyes</button>
+        <button class="tab" data-index="1"><span>02</span>Empathy</button>
+        <button class="tab" data-index="2"><span>03</span>Relentless Drive</button>
+        <button class="tab" data-index="3"><span>04</span>Think Beyond</button>
+        <button class="tab" data-index="4"><span>05</span>Own the Outcome</button>
+        <button class="tab" data-index="5"><span>06</span>Move Together</button>
+      </nav>
+      <article class="stage" aria-live="polite">
+        <div class="visual"><img id="artwork" src="./artworks/01-see-through.png" alt=""><span id="counter">01 / 06</span></div>
+        <div class="story"><p id="value" class="value"></p><h3 id="title-en"></h3><p id="title-cn" class="title-cn"></p><p id="desc-en"></p><p id="desc-cn" class="zh"></p><div class="controls"><button id="prev" aria-label="Previous">←</button><button id="next" aria-label="Next">→</button><span>Use arrows or keyboard</span></div></div>
+        <section class="prompt-panel"><header><div><small>Prompt evolution</small><h4>From concept to final direction</h4></div><span id="prompt-count"></span></header><div id="prompts" class="prompts"></div></section>
+        <figure class="record"><header><div><small>Final generation record</small><h4>Production screenshot</h4></div><span>ChatGPT</span></header><div class="screenshot"><img id="screenshot" src="./screenshots/01-see-through.png" alt=""></div><figcaption id="caption"></figcaption></figure>
+      </article>
+    </section>
+  </main>
+  <footer><img src="./assets/yami-logo.png" alt=""><p>Yami Culture AI Wallpaper <b>·</b> Created by Erin Lin</p></footer>
+  <script src="./script.js"></script>
+</body>
+</html>
